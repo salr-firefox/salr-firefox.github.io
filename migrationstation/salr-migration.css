@@ -1,0 +1,11 @@
+.container {
+	height: 600px;
+}
+#existing-input {
+	width: 100%;
+	height: 30%;
+}
+#output {
+	width: 100%;
+	height: 50%;
+}

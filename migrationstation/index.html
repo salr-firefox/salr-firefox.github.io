@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Legacy SALR Migration Station v0.2</title>
+    <link rel="stylesheet" href="salr-migration.css">
+    <script src='sql.js'></script>
+    <script src='salr-migration.js'></script>
+</head>
+<body>
+    <h1>Legacy SALR Note&amp;Hidden Avatar Migration Station v0.2</h1>
+<div class="container">
+    <label>Step 1: Load your salastread.sqlite SQLite database file: <input type='file' id='dbfile'></label><br />
+    <label>Step 2: (optional) Paste your existing SALR Redux pref string below to keep your Redux preferences: (settings->misc commands->copy json settings string)</label><br />
+    <label><b>Note: any SALR Redux Notes or hidden avatars will be OVERWRITTEN by what you are importing!</b></label>
+    <textarea id="existing-input" spellcheck="false" placeholder="Paste existing SALR Redux preference string here!"></textarea><br />
+    <label>Step 3: </label><button id="execute" onclick="doIt()">Execute</button><br />
+
+    <div id="error" class="error"></div>
+    <textarea id="output" spellcheck="false">Results will be displayed here</textarea>
+</div>
+</body>
+</html>
