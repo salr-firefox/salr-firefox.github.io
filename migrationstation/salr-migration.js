@@ -224,7 +224,7 @@ function createReduxSettingsString(userNotesString, hiddenAvatarString, inputStr
 			'displayOmnibarIcon':           'false',
 			'enableKeyboardShortcuts':      'false',
 			'enableMouseGestures':          'false',
-			'enableMouseMenu':              'true',
+			'enableMouseMenu':              'false',
 			'enableMouseUpUCP':             'false',
 			'enableQuickReply':             'true',
 			'quickReplyParseUrls':          'true',
